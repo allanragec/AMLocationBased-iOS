@@ -1,8 +1,7 @@
 @version = "0.1.0"
 
 Pod::Spec.new do |s|
-  s.platform = :ios
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '4.0'
   s.name = "AMLocationBased"
   s.summary = "Lib developed this to help developers work with directions between the geo-locations"
   s.requires_arc = true
