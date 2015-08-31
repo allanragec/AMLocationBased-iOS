@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreatePointViewController">
+            <connections>
+                <outlet property="mapView" destination="2W9-8z-IvR" id="fwz-k5-cPf"/>
+                <outlet property="pckDegrees" destination="8Sv-Oa-sFi" id="n7p-oO-LNS"/>
+                <outlet property="pckMeters" destination="STi-KK-t2d" id="m97-ii-rRo"/>
+                <outlet property="view" destination="d92-C1-Rht" id="OjG-gv-j4t"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="d92-C1-Rht">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2W9-8z-IvR">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="417"/>
+                </mapView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DEGREES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkK-4s-neo">
+                    <rect key="frame" x="110" y="417" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="METERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpv-7W-dZK">
+                    <rect key="frame" x="416" y="417" width="69" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Sv-Oa-sFi">
+                    <rect key="frame" x="0.0" y="438" width="300" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="bUr-l5-T3f"/>
+                    </constraints>
+                </pickerView>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="STi-KK-t2d">
+                    <rect key="frame" x="300" y="438" width="300" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="162" id="P5y-LX-7hf"/>
+                    </constraints>
+                </pickerView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="STi-KK-t2d" firstAttribute="width" secondItem="8Sv-Oa-sFi" secondAttribute="width" id="4lA-c9-bm6"/>
+                <constraint firstItem="STi-KK-t2d" firstAttribute="leading" secondItem="8Sv-Oa-sFi" secondAttribute="trailing" id="9Iu-sb-nhw"/>
+                <constraint firstItem="8Sv-Oa-sFi" firstAttribute="top" secondItem="XkK-4s-neo" secondAttribute="bottom" id="Dox-oj-1R2"/>
+                <constraint firstAttribute="trailing" secondItem="2W9-8z-IvR" secondAttribute="trailing" id="ENs-FM-gMV"/>
+                <constraint firstItem="2W9-8z-IvR" firstAttribute="top" secondItem="d92-C1-Rht" secondAttribute="top" id="Fii-sc-Ojz"/>
+                <constraint firstItem="XkK-4s-neo" firstAttribute="top" secondItem="2W9-8z-IvR" secondAttribute="bottom" id="Lkk-d0-oFV"/>
+                <constraint firstAttribute="bottom" secondItem="STi-KK-t2d" secondAttribute="bottom" id="cmQ-Ji-uIS"/>
+                <constraint firstAttribute="trailing" secondItem="STi-KK-t2d" secondAttribute="trailing" id="j6b-MA-fXH"/>
+                <constraint firstItem="STi-KK-t2d" firstAttribute="centerX" secondItem="tpv-7W-dZK" secondAttribute="centerX" id="jNB-60-25y"/>
+                <constraint firstItem="STi-KK-t2d" firstAttribute="top" secondItem="tpv-7W-dZK" secondAttribute="bottom" id="lk6-53-Tgb"/>
+                <constraint firstItem="8Sv-Oa-sFi" firstAttribute="leading" secondItem="d92-C1-Rht" secondAttribute="leading" id="qbM-MI-Ji3"/>
+                <constraint firstAttribute="bottom" secondItem="8Sv-Oa-sFi" secondAttribute="bottom" id="sck-Kp-xeB"/>
+                <constraint firstItem="XkK-4s-neo" firstAttribute="centerX" secondItem="8Sv-Oa-sFi" secondAttribute="centerX" id="tya-kP-9db"/>
+                <constraint firstItem="2W9-8z-IvR" firstAttribute="leading" secondItem="d92-C1-Rht" secondAttribute="leading" id="w1E-oT-ukz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

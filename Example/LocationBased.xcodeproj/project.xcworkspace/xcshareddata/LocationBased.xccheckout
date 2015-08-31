@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>941D9E76-41A4-4887-A662-6FADDCAAA2F1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LocationBased</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD8D092FEC8B7E5235DA6C937FF63CCAF027AD3B</key>
+		<string>https://github.com/allanragec/AMLocationBased-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/LocationBased.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD8D092FEC8B7E5235DA6C937FF63CCAF027AD3B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/allanragec/AMLocationBased-iOS</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD8D092FEC8B7E5235DA6C937FF63CCAF027AD3B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD8D092FEC8B7E5235DA6C937FF63CCAF027AD3B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AMLocationBased-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
