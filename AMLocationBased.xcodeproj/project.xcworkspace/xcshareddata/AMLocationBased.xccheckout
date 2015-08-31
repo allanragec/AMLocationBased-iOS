@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11AA046C-A868-4D59-A4E8-DF8A38668D0A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B41298F86A600B4F8EDF35A5CFFFAD0C6A680AA5</key>
+		<string>https://allanmelo.visualstudio.com/DefaultCollection/_git/ProjetosPessoaisGIT</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CocoaPod/AMLocationBased/AMLocationBased.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B41298F86A600B4F8EDF35A5CFFFAD0C6A680AA5</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://allanmelo.visualstudio.com/DefaultCollection/_git/ProjetosPessoaisGIT</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B41298F86A600B4F8EDF35A5CFFFAD0C6A680AA5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B41298F86A600B4F8EDF35A5CFFFAD0C6A680AA5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AllanMeloPessoal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
