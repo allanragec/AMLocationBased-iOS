@@ -10,6 +10,5 @@ Pod::Spec.new do |s|
   s.author = { "Allan Melo" => "allanragec@gmail.com" }
   s.homepage = "https://github.com/allanragec/AMLocationBased-iOS.git"
   s.source = { :git => "https://github.com/allanragec/AMLocationBased-iOS.git", :tag => @version}
-  s.framework = "UIKit"
   s.source_files = 'AMLocationBased/**/*.{h,m}'
 end
